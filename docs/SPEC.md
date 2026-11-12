@@ -10,7 +10,7 @@ Centralize **Docker container logs** for local microservice development: registe
 
 - **Host-native** process with `docker.sock` and local paths ([ADR-0001](adr/0001-host-native-docker-socket.md)).
 - **Bun** + **SvelteKit**; server routes for Docker, git, registry; **SSE** log tail to the browser ([ADR-0003](adr/0003-bun-runtime.md)).
-- Dev: `bun run dev` → `http://127.0.0.1:5173` by default; `PORT` override.
+- Dev: `bun run dev` → `http://127.0.0.1:5110` by default; `PORT` override.
 - **127.0.0.1 only** ([ADR-0004](adr/0004-bind-localhost-only.md)).
 
 ## Registry
